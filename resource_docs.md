@@ -3,7 +3,6 @@
 1. 接口地址: 
     
     `http://ip:port/newmedia_app`
-    `api.auth.updateSettings()`
 
 2. 请求方式: `GET`
 3. 请求 JSON 字段: 
