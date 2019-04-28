@@ -9,8 +9,9 @@
     
     |字段|字段名称|参数类型|是否必填|后端默认值|说明|
     |:--|:---|:------|:------|:--|:--|
-    |`callback`|回调函数名称|String|是| | 回调函数 |
-    |`data`|数据|String|是|accountId:账户,formIdList:表单id列表,agentIdList:分配坐席id列表 |  |
+    |`accountId`|账户|String|是| | 账户id |
+    |`formIdList`|表单id列表|String|是| | 表单id |
+    |`agentIdList`|坐席id列表|String|是| | 坐席id |
 4. 请求成功访问内容示例：
     ```
     http://localhost:8081/newmedia_app?callback=jQuery331021725983067260368_1556418099720&data=%7B%22accountId%22%3A%22N000000008597%22%2C%22originalAgentId%22%3A%2290db9383-9d17-47af-87cc-6dee6e34d1e4%22%2C%22targetAgentId%22%3A%2230627c08-9a99-4961-b1bd-308c1973e6e8%22%2C%22skillGroupId%22%3A%22550acc90-64da-11e9-ade2-f7f9d5b5b068%22%2C%22formId%22%3A%2230b9d970-6733-11e9-a83a-cdbca25e1628%22%2C%22Action%22%3A%22BatchReassignForm%22%2C%22Modual%22%3A%22chatForm%22%7D&_=1556418099723
