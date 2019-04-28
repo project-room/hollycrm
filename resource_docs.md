@@ -10,7 +10,7 @@
     |字段|字段名称|参数类型|是否必填|后端默认值|说明|
     |:--|:---|:------|:------|:--|:--|
     |`accountId`|账户|String|是| | 账户id |
-    |`accountName`|action名称|String|是| | action名称 |
+    |`accountName`|action名称|String|是| | actionName赋值为BatchReassignForm |
     |`formIdList`|表单id列表|String|是| | 表单id |
     |`agentIdList`|坐席id列表|String|是| | 坐席id |
 4. 请求成功访问内容示例：
