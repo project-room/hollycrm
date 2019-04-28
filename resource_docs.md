@@ -10,6 +10,7 @@
     |字段|字段名称|参数类型|是否必填|后端默认值|说明|
     |:--|:---|:------|:------|:--|:--|
     |`accountId`|账户|String|是| | 账户id |
+    |`data`|内容|String|是| | 传参的内容 |
     |`actionName`|action名称|String|是| | actionName必须赋值为BatchReassignForm,在data参数里面 |
     |`formIdList`|表单id列表|String|是| | 表单id,在data参数里面 |
     |`agentIdList`|坐席id列表|String|是| | 坐席id,在data参数里面 |
