@@ -102,20 +102,32 @@
 ```
     
     ```js
-// 受送达人为个人时
-"meta": {
-    "name": "王某某",                  // 个人名称
-    "idcard": "241252511251513",      // 个人身份证号
-    "phone": "123131232131",          // 个人手机号
-    "case_name": case_name            // 收案号
-},
-
-// 受送达人为公司时
-"meta": {
-    "name": "某某公司",                         // 公司名
-    "social_credit_id": "241252511251513",    // 公司社会信用代码
-    "legal_repr_name": "某某法人",             // 公司法人名称
-    "case_name": case_name                    // 收案号
+// 发送消息数据
+"data": {
+	"Content": "哦",
+	"FromUserName": "c47fbfeb-d902-45b4-9e5b-e9675f917636",
+	"ToUserName": "8759bb80-64d4-11e9-923c-87d33a2f58e4",
+	"SequenceID": "94ce1bf1-6e2d-11e9-8544-978f909cf5b8",
+	"SessionID": "94ce1bf0-6e2d-11e9-8544-978f909cf5b8",
+	"ChannelId": "c47fbfeb-d902-45b4-9e5b-e9675f917636",
+	"AgentId": "62f72502-e05a-48a2-beeb-c707e85ea428",
+	"AgentName": "相信科学",
+	"SkillGroupId": "3e717ca0-64d4-11e9-ae8d-fbd87dbf8296",
+	"CustName": "老三",
+	"Address": "广州,移动,120.230.113.164,440100",
+	"VisitorId": "8759bb80-64d4-11e9-923c-87d33a2f58e4",
+	"newMediaEvent": "Action",
+	"MsgId": "e05f02d0-7131-11e9-bf49-2b1a07e0d49a",
+	"Action": "recordSendMessage",
+	"Mode": "reply",
+	"NewMediaType": "webChat",
+	"Account": "N000000009246",
+	"MsgType": "text",
+	"CreateTime": "2019-05-08 09:37:44",
+	"CusNickName": "访客935",
+	"CustomerId": "26d0e080-6a4d-11e9-95be-5d5a6cc3a5d4",
+	"HistorySearchField": "8759bb80-64d4-11e9-923c-87d33a2f58e4"
+    	"attachmentUrl":"C:/Users/holly/img/09e781ee110454b30dd1c86fa3d5794f"
 }
 ```
     
