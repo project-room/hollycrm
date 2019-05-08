@@ -45,7 +45,7 @@
     
     |字段|字段名称|参数类型|是否必填|后端默认值|说明|
     |:--|:---|:------|:------|:--|:--|
-    |`Content`|发送文本内容|String|是|发送文本内容,作为data参数内容 |  |
+    |`Content`|发送文本内容|String|是| | 发送文本内容,作为data参数内容 |
     |`FromUserName`|发送人名称|String|是| | 发送人名称,作为data参数内容 |
     |`ToUserName`|接收人名称|String|是| | 接收人名称,作为data参数内容 |
     |`SequenceID`|序列ID|String|是| | 序列ID,作为data参数内容|
@@ -67,6 +67,6 @@
     |`CreateTime`|创建时间|String|是| | 创建时间,作为data参数内容 |
     |`CusNickName`|访客昵称|String|是| | 访客昵称,作为data参数内容 |
     |`CustomerId`|客户id|String|是| | 客户id,作为data参数内容 |
-    |`HistorySearchField`|历史字段|String|是| | 历史字段,作为data参数内容 |
+    |`HistorySearchField`|历史搜索字段|String|是| | 历史字段,作为data参数内容 |
     |`attachmentUrl`|附件url|String|是| | 附件url,作为data参数内容 |
 
