@@ -69,4 +69,35 @@
     |`CustomerId`|客户id|String|是| | 客户id,作为data参数内容 |
     |`HistorySearchField`|历史搜索字段|String|是| | 历史字段,作为data参数内容 |
     |`attachmentUrl`|附件url|String|是| | 附件url,作为data参数内容 |
+    
+    4. 请求成功访问内容示例：
+    ```
+   data{
+	"Content": "哦",
+	"FromUserName": "c47fbfeb-d902-45b4-9e5b-e9675f917636",
+	"ToUserName": "8759bb80-64d4-11e9-923c-87d33a2f58e4",
+	"SequenceID": "94ce1bf1-6e2d-11e9-8544-978f909cf5b8",
+	"SessionID": "94ce1bf0-6e2d-11e9-8544-978f909cf5b8",
+	"ChannelId": "c47fbfeb-d902-45b4-9e5b-e9675f917636",
+	"AgentId": "62f72502-e05a-48a2-beeb-c707e85ea428",
+	"AgentName": "相信科学",
+	"SkillGroupId": "3e717ca0-64d4-11e9-ae8d-fbd87dbf8296",
+	"CustName": "老三",
+	"Address": "广州,移动,120.230.113.164,440100",
+	"VisitorId": "8759bb80-64d4-11e9-923c-87d33a2f58e4",
+	"newMediaEvent": "Action",
+	"MsgId": "e05f02d0-7131-11e9-bf49-2b1a07e0d49a",
+	"Action": "recordSendMessage",
+	"Mode": "reply",
+	"NewMediaType": "webChat",
+	"Account": "N000000009246",
+	"MsgType": "text",
+	"CreateTime": "2019-05-08 09:37:44",
+	"CusNickName": "访客935",
+	"CustomerId": "26d0e080-6a4d-11e9-95be-5d5a6cc3a5d4",
+	"HistorySearchField": "8759bb80-64d4-11e9-923c-87d33a2f58e4"
+    "attachmentUrl":"C:/Users/holly/img/09e781ee110454b30dd1c86fa3d5794f"
+    }
+    ```
+    
 
