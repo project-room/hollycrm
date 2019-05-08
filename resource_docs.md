@@ -37,3 +37,34 @@
     ```
 
 ## 2. 历史会话发送附件
+1. 接口地址: 
+    
+    `http://ip:port/newmedia_app`
+2. 请求方式: `POST`
+3. 请求 JSON 字段: 
+    
+    |字段|字段名称|参数类型|是否必填|后端默认值|说明|
+    |:--|:---|:------|:------|:--|:--|
+    |`Content`|账户|String|是| | 账户id |
+    |`FromUserName`|传参的内容|String|是| | 传参的内容 |
+    |`ToUserName`|action名称|String|是| | Action必须赋值为BatchReassignForm,作为data参数内容 |
+    |`SequenceID`|Modual|String|是| | Modual必须赋值为chatForm,作为data参数内容 |
+    |`SessionID`|表单id列表|String|是| | 表单id,作为data参数内容 |
+    |`ChannelId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`AgentId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`AgentName`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`SkillGroupId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`CustName`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`Address`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`VisitorId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`newMediaEvent`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`MsgId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`Action`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`Mode`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`NewMediaType`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`Account`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`MsgType`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`CreateTime`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`CusNickName`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`CustomerId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`HistorySearchField`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
