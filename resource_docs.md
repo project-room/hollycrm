@@ -35,3 +35,5 @@
     ```json
     jQuery331021725983067260368_1556418099720({"Response":"BatchReassignForm","ActionID":"","Command":"Response","Succeed":true})
     ```
+
+## 2. 历史会话发送附件
