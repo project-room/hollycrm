@@ -68,3 +68,5 @@
     |`CusNickName`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
     |`CustomerId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
     |`HistorySearchField`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`attachmentUrl`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+
