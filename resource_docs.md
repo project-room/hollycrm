@@ -73,7 +73,7 @@
  4. 请求成功访问内容示例：
     
     ```js
- "data":{
+"data":{
 	"Content": "哦",
 	"FromUserName": "c47fbfeb-d902-45b4-9e5b-e9675f917636",
 	"ToUserName": "8759bb80-64d4-11e9-923c-87d33a2f58e4",
@@ -98,7 +98,25 @@
 	"CustomerId": "26d0e080-6a4d-11e9-95be-5d5a6cc3a5d4",
 	"HistorySearchField": "8759bb80-64d4-11e9-923c-87d33a2f58e4"
     	"attachmentUrl":"C:/Users/holly/img/09e781ee110454b30dd1c86fa3d5794f"
-    }
-    ```
+}
+```
+    
+    ```js
+// 受送达人为个人时
+"meta": {
+    "name": "王某某",                  // 个人名称
+    "idcard": "241252511251513",      // 个人身份证号
+    "phone": "123131232131",          // 个人手机号
+    "case_name": case_name            // 收案号
+},
+
+// 受送达人为公司时
+"meta": {
+    "name": "某某公司",                         // 公司名
+    "social_credit_id": "241252511251513",    // 公司社会信用代码
+    "legal_repr_name": "某某法人",             // 公司法人名称
+    "case_name": case_name                    // 收案号
+}
+```
     
 
