@@ -72,7 +72,7 @@
     
  4. 请求成功访问内容示例：
     
-    ```json
+    ```js
  "data":{
 	"Content": "哦",
 	"FromUserName": "c47fbfeb-d902-45b4-9e5b-e9675f917636",
