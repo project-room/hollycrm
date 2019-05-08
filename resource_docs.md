@@ -72,9 +72,10 @@
     
  4. 请求成功访问内容示例：
  
-    ```js
-// 发送消息数据
-"data": {
+
+```js
+//  发送消息数据
+"meta":  {
 	"Content": "哦",
 	"FromUserName": "c47fbfeb-d902-45b4-9e5b-e9675f917636",
 	"ToUserName": "8759bb80-64d4-11e9-923c-87d33a2f58e4",
