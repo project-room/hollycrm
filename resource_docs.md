@@ -102,5 +102,24 @@
     	"attachmentUrl":"c:/hollywork/workspace/app/static/newMedia/files/N000000008597/20170622/fileupload.png"
 }
 ```
+
+5. 返回 JSON 字段: 
+
+    __请求成功时, 返回状态码 `200`__. 返回 JSON, 格式是:
+
+    |字段|字段名称|参数类型|说明|
+    |:--|:---|:------|:------|
+    |`Response`|Response|String| Response名称 |
+    |`ActionID`|ActionID|String| action的id |
+    |`Command`|Command|String| command的名称 |
+    |`Succeed`|成功状态|String| true为访问成功,false为访问失败 |
+
+6. 请求成功返回内容示例:
+
+    ```json
+    jQuery33107097486550168173_1557297839210({"Response":"recordSendMessage","ActionID":"","Command":"Response","Succeed":true})
+    ```
+
+
     
 
