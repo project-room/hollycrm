@@ -99,7 +99,7 @@
 	"CusNickName": "访客935",
 	"CustomerId": "26d0e080-6a4d-11e9-95be-5d5a6cc3a5d4",
 	"HistorySearchField": "8759bb80-64d4-11e9-923c-87d33a2f58e4"
-    	"attachmentUrl":"C:/Users/holly/img/09e781ee110454b30dd1c86fa3d5794f"
+    	"attachmentUrl":"c:/hollywork/workspace/app/static/newMedia/files/N000000008597/20170622/fileupload.png"
 }
 ```
     
