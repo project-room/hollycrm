@@ -63,7 +63,7 @@
     |`Mode`|模式|String|是| | 模式,作为data参数内容,作为data参数内容 |
     |`NewMediaType`|新媒体类型|String|是| | 新媒体类型,作为data参数内容 |
     |`Account`|账户|String|是| | 账户,作为data参数内容 |
-    |`MsgType`|消息类型|String|是| | 消息类型,作为data参数内容 |
+    |`MsgType`|消息类型|String|是| | 值必须为attachment,作为data参数内容 |
     |`CreateTime`|创建时间|String|是| | 创建时间,作为data参数内容 |
     |`CusNickName`|访客昵称|String|是| | 访客昵称,作为data参数内容 |
     |`CustomerId`|客户id|String|是| | 客户id,作为data参数内容 |
