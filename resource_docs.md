@@ -45,28 +45,28 @@
     
     |字段|字段名称|参数类型|是否必填|后端默认值|说明|
     |:--|:---|:------|:------|:--|:--|
-    |`Content`|账户|String|是| | 账户id |
-    |`FromUserName`|传参的内容|String|是| | 传参的内容 |
-    |`ToUserName`|action名称|String|是| | Action必须赋值为BatchReassignForm,作为data参数内容 |
-    |`SequenceID`|Modual|String|是| | Modual必须赋值为chatForm,作为data参数内容 |
-    |`SessionID`|表单id列表|String|是| | 表单id,作为data参数内容 |
-    |`ChannelId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`AgentId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`AgentName`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`SkillGroupId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`CustName`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`Content`|发送文本内容|String|是|发送文本内容,作为data参数内容 |  |
+    |`FromUserName`|发送人名称|String|是| | 发送人名称,作为data参数内容 |
+    |`ToUserName`|接收人名称|String|是| | 接收人名称,作为data参数内容 |
+    |`SequenceID`|序列ID|String|是| | 序列ID,作为data参数内容|
+    |`SessionID`|会话id|String|是| | 会话id,作为data参数内容 |
+    |`ChannelId`|渠道ID|String|是| | 渠道ID,作为data参数内容 |
+    |`AgentId`|坐席id|String|是| | 坐席id,作为data参数内容 |
+    |`AgentName`|坐席名称|String|是| | 坐席名称,作为data参数内容 |
+    |`SkillGroupId`|技能组id|String|是| | 技能组id,作为data参数内容 |
+    |`CustName`|昵称|String|是| | 昵称,作为data参数内容 |
     |`Address`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`VisitorId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`newMediaEvent`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`MsgId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`Action`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`Mode`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`NewMediaType`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`Account`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`MsgType`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`CreateTime`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`CusNickName`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`CustomerId`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`HistorySearchField`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
-    |`attachmentUrl`|坐席id列表|String|是| | 坐席id,作为data参数内容 |
+    |`VisitorId`|ip地址|String|是| | ip地址,作为data参数内容 |
+    |`newMediaEvent`|新媒体事件|String|是| | 新媒体事件,作为data参数内容 |
+    |`MsgId`|消息id|String|是| | 消息id,作为data参数内容 |
+    |`Action`|action名称|String|是| | action名称,作为data参数内容 |
+    |`Mode`|模式|String|是| | 模式,作为data参数内容,作为data参数内容 |
+    |`NewMediaType`|新媒体类型|String|是| | 新媒体类型,作为data参数内容 |
+    |`Account`|账户|String|是| | 账户,作为data参数内容 |
+    |`MsgType`|消息类型|String|是| | 消息类型,作为data参数内容 |
+    |`CreateTime`|创建时间|String|是| | 创建时间,作为data参数内容 |
+    |`CusNickName`|访客昵称|String|是| | 访客昵称,作为data参数内容 |
+    |`CustomerId`|客户id|String|是| | 客户id,作为data参数内容 |
+    |`HistorySearchField`|历史字段|String|是| | 历史字段,作为data参数内容 |
+    |`attachmentUrl`|附件url|String|是| | 附件url,作为data参数内容 |
 
